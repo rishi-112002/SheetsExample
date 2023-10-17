@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         selectItem = findViewById(R.id.selectItem)
         selectItem.setOnClickListener {
             bottomSheetDialog()
+            println("hello")
         }
 
 
@@ -30,4 +31,7 @@ class MainActivity : AppCompatActivity() {
         bottomSheetDialog.show()
 
     }
+
+
+
 }
